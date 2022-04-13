@@ -14,29 +14,35 @@ public class Bolillero
         Adentro = new List<byte>();
         Afuera = new List<byte>();
     }
-    public Bolillero(byte Bolillas)
+    private void CrearBolillas(byte cantBolillas)
     {
+        Adentro.Add(cantBolillas);
+    }
+    private void CrearBolillero(byte cantBolillas)
+    {
+        for(int i = 0; i < cantBolillas -1 ; i++)
+        {
+            CrearBolillas(cantBolillas);
+        }
+    }
+    public byte SacarBolilla()
+    {
+        //var a = azar.SacarBolilla(Adentro)
+        //Afuera.Add(a);
         
     }
-    private void CrearBolillero(byte)
-    {
-
-    }
+    
     public void ReIngresar()
     {
-        
+
     }
-    public byte SacarBolilla();
+    //public bool Jugar(List<byte>) 
     
 
     
-    public bool Jugar(List<byte>) 
-    {
+    //public long JugarN(List<Byte>)
+    
 
-    }
-    public long JugarN(List<Byte>)
-    {
-
-    }
+    
     
 }   

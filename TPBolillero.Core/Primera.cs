@@ -1,7 +1,11 @@
+using System;
 namespace TPBolillero.Core
 {
     public class Primera : IAzar
     {
-        public byte SacarBolilla(List<byte>) ;
+        public void SacarBolilla(List<byte>)
+        {
+
+        }
     }
 }
