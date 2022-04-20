@@ -1,11 +1,13 @@
 using System;
+using System.Collections.Generic;
+
 namespace TPBolillero.Core
 {
     public class Primero : IAzar
     {
-        public void SacarBolilla(List<byte>)
+        public byte SacarBolilla(List<byte> bolillas)
         {
-
+            Convert 
         }
     }
 }
