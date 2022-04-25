@@ -35,19 +35,14 @@ namespace TPBolillero.Core
         }
         
         public void ReIngresar()
-        {
+        {   
             Adentro.AddRange(Afuera);
             Afuera.Clear();
         }
         //cuando saco una bolilla sea igual a mi 
-        //lista xd y que devuelva verdadero
-        public bool Jugar(List<byte>)
-        {
-            if
-            {
-                
-            }
-        }
+        //lista xd y que devuelva verdadero 
+        public bool Jugar(List<byte>);
+
         //public long JugarN(List<Byte>)
     } 
 }
