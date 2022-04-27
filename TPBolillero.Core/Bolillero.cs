@@ -16,15 +16,14 @@ namespace TPBolillero.Core
         }
         private void CrearBolillas(byte cantBolillas)
         {
-            Adentro.Add(cantBolillas);
+            for(byte i = 0; i < cantBolillas ; i++)
+            {
+                Adentro.Add(i);
+            }
         }
         private void CrearBolillero(byte cantBolillas)
         {
-            for(int i = 0; i < cantBolillas -1 ; i++)
-            {
-                CrearBolillas(cantBolillas);
-                
-            }
+            CrearBolillas(cantBolillas);
         }
         public byte SacarBolilla()
         {
@@ -41,7 +40,15 @@ namespace TPBolillero.Core
         }
         //cuando saco una bolilla sea igual a mi 
         //lista xd y que devuelva verdadero 
-        public bool Jugar(List<byte>);
+        public bool Jugar(List<byte> cantBolillas)
+        {
+            for(int i = 0; i < cantBolillas.Count ; i++)
+            {
+                if(SacarBolilla() != cantBolillas[i])
+                return false;
+            }
+            return true;
+        }
 
         //public long JugarN(List<Byte>)
     } 

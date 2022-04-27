@@ -5,6 +5,9 @@ namespace TPBolillero.Core
 {
     public class Primero : IAzar
     {
-        public byte SacarBolilla(List<byte> bolillas);
+        public byte SacarBolilla(List<byte> Bolillas)
+        {
+            
+        }
     }
 }
