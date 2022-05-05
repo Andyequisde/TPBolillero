@@ -11,7 +11,7 @@
 
 ## Computación 2021
 
-**Asignatura**: Administracion de Sistemas y Redes
+**Asignatura**: Programacion sobre redes
 
 **Nombre TP**: TPBolillero
 

@@ -38,8 +38,8 @@ namespace TPBolillero.Core
             Adentro.AddRange(Afuera);
             Afuera.Clear();
         }
-        //cuando saco una bolilla sea igual a mi 
-        //lista xd y que devuelva verdadero 
+        /*cuando saco una bolilla sea igual a mi 
+        lista xd y que devuelva verdadero */
         public bool Jugar(List<byte> cantBolillas)
         {
             for(int i = 0; i < cantBolillas.Count ; i++)
