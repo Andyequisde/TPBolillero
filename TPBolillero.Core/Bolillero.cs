@@ -50,6 +50,22 @@ namespace TPBolillero.Core
             return true;
         }
 
-        //public long JugarN(List<Byte>)
+        /*Este bolillero también admite jugarNVeces, recibiendo por parámetro una lista de bolillas y
+        una cantidad de veces a jugar, devolviendo la cantidad de veces que la lista de bolillas fue acertada.
+        También se debe de poder volver a colocar en el bolillero, las bolillas sacadas.*/
+
+        public long JugarNVeces(List<byte> cantBolillas , int Cantidad)
+        {
+            long Contador = 0;
+            for (int i = 0; i < Cantidad ; i++)
+            {
+                if (Jugar(cantBolillas))
+                {
+                    Contador++;
+                }
+            }
+            return Contador; 
+            
+        }
     } 
 }
