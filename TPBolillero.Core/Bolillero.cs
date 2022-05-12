@@ -39,7 +39,7 @@ namespace TPBolillero.Core
             Afuera.Clear();
         }
         /*cuando saco una bolilla sea igual a mi 
-        lista xd y que devuelva verdadero */
+        lista y que devuelva verdadero */
         public bool Jugar(List<byte> cantBolillas)
         {
             for(int i = 0; i < cantBolillas.Count ; i++)
@@ -65,7 +65,6 @@ namespace TPBolillero.Core
                 }
             }
             return Contador; 
-            
         }
     } 
 }
