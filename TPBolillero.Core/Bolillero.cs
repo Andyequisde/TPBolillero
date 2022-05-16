@@ -7,7 +7,7 @@ namespace TPBolillero.Core
     {   
         public List<byte> Adentro { get; set; }
         public List<byte> Afuera { get; set; }
-        private IAzar Azar { get; set; }
+        public IAzar Azar { get; set; }
 
         public Bolillero()
         {
@@ -21,7 +21,7 @@ namespace TPBolillero.Core
                 Adentro.Add(i);
             }
         }
-        private void CrearBolillero(byte cantBolillas)
+        public Bolillero(byte cantBolillas)
         {
             CrearBolillas(cantBolillas);
         }
