@@ -21,7 +21,7 @@ namespace TPBolillero.Core
                 Adentro.Add(i);
             }
         }
-        public Bolillero(byte cantBolillas)
+        public Bolillero(byte cantBolillas): this()
         {
             CrearBolillas(cantBolillas);
         }

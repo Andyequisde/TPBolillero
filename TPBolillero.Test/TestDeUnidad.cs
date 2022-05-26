@@ -15,14 +15,14 @@ namespace TPBolillero.Test
             Bolillero = new Bolillero(10);
             Bolillero.Azar = new Primero();
         }
-        [Fact]
         public void SacarBolillaTest()
         {
-            // Given
+            //Verificar que devuelve la bolilla 0 (cero).
             
-            // When
-        
-            // Then
+            //verificar que dentro del bolillero hay 9 bolillas.
+
+            //Verificar que afuera del bolillero hay una bolilla.
+
         }
     }
 }
