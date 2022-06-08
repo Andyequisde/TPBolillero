@@ -54,10 +54,10 @@ namespace TPBolillero.Core
         una cantidad de veces a jugar, devolviendo la cantidad de veces que la lista de bolillas fue acertada.
         También se debe de poder volver a colocar en el bolillero, las bolillas sacadas.*/
 
-        public long JugarNVeces(List<byte> cantBolillas , int Cantidad)
+        public long JugarNVeces(List<byte> cantBolillas , long Cantidad)
         {
             long Contador = 0;
-            for (int i = 0; i < Cantidad ; i++)
+            for (long i = 0; i < Cantidad ; i++)
             {
                 if (Jugar(cantBolillas))
                 {
